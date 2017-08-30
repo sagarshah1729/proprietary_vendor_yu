@@ -193,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/yu/garlic/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
     vendor/yu/garlic/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
     vendor/yu/garlic/proprietary/lib64/libregionalization.so:system/lib64/libregionalization.so \
     vendor/yu/garlic/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
