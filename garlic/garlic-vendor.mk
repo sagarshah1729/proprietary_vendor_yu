@@ -201,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/garlic/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/yu/garlic/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/yu/garlic/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/yu/garlic/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/yu/garlic/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/yu/garlic/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
