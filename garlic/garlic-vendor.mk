@@ -985,6 +985,8 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     QtiTetherService \
     com.qualcomm.location \
+    dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     colorservice \
     imssettings \
