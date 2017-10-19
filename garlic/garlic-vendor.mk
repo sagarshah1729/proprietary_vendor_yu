@@ -18,9 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/yu/garlic/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/yu/garlic/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/yu/garlic/proprietary/bin/cnd:system/bin/cnd \
-    vendor/yu/garlic/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/yu/garlic/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/yu/garlic/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/yu/garlic/proprietary/bin/fstman:system/bin/fstman \
     vendor/yu/garlic/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
@@ -33,8 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/yu/garlic/proprietary/bin/iop:system/bin/iop \
     vendor/yu/garlic/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/yu/garlic/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/yu/garlic/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/yu/garlic/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/yu/garlic/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/yu/garlic/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -50,8 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/yu/garlic/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/yu/garlic/proprietary/bin/wfdservice:system/bin/wfdservice \
-    vendor/yu/garlic/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/yu/garlic/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/yu/garlic/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -96,27 +89,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/camera/imx258_sunny_p7201_chromatix.xml:system/etc/camera/imx258_sunny_p7201_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/camera/p7201_s5k4h8_chromatix.xml:system/etc/camera/p7201_s5k4h8_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/yu/garlic/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/yu/garlic/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/yu/garlic/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/yu/garlic/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/yu/garlic/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/yu/garlic/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/yu/garlic/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/yu/garlic/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/yu/garlic/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
@@ -149,25 +123,15 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/yu/garlic/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/yu/garlic/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/yu/garlic/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/yu/garlic/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/yu/garlic/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/yu/garlic/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/yu/garlic/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/yu/garlic/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/yu/garlic/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/yu/garlic/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/yu/garlic/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
@@ -364,16 +328,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_preview_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video_third_party_app.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/yu/garlic/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -544,7 +500,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/yu/garlic/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/yu/garlic/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -592,7 +547,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/yu/garlic/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/yu/garlic/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
@@ -609,8 +563,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/yu/garlic/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -751,10 +703,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
@@ -767,20 +715,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdatactrl.so:system/vendor/lib64/libdatactrl.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -792,7 +732,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libfastrpc_aue_stub.so:system/vendor/lib64/libfastrpc_aue_stub.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libfastrpc_utf_stub.so:system/vendor/lib64/libfastrpc_utf_stub.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libhbtpclient.so:system/vendor/lib64/libhbtpclient.so \
@@ -811,13 +750,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
@@ -861,7 +794,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/yu/garlic/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -919,8 +851,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libwfdavenhancements.so:system/vendor/lib64/libwfdavenhancements.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
@@ -937,12 +867,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/yu/garlic/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/yu/garlic/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
     vendor/yu/garlic/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
@@ -984,24 +908,15 @@ PRODUCT_PACKAGES += \
     fastdormancy \
     shutdownlistener \
     QtiTetherService \
-    com.qualcomm.location \
-    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     colorservice \
     imssettings \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
-    com.qualcomm.location.vzw_library \
-    com.quicinc.cne \
-    dpmapi \
     embmslibrary \
     imscmlibrary \
-    izat.xt.srv \
     qcrilhook \
     qti-telephony-common \
     tcmclient
